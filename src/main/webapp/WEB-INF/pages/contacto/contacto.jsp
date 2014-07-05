@@ -15,7 +15,7 @@
 </head>
 <body>
 
-<form action="/guardarContacto" method="post">
+<form action="guardarContacto" method="post">
     <table>
         <tr>
             <td>Nombre :</td><td><input type="text" name="nombre"/></td>
