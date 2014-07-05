@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2761958934">
+    <data-source source="LOCAL" name="PostgreSQL - ejemplo1@localhost" uuid="ca962adf-37e1-4730-8222-4078f2580966">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/ejemplo1</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>df9bdf98df99df9e</user-password>
+      <schema-pattern>ejemplo1.public</schema-pattern>
+      <default-schemas>ejemplo1.pg_catalog ejemplo1.public</default-schemas>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="persistenceUnit" uuid="173b0e6d-43b8-43ba-8472-6b4f40cf339f">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/ejemplo1</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>df9bdf98df99df9e</user-password>
+      <libraries>
+        <library>
+          <url>file://$PROJECT_DIR$/lib/postgresql-9.3-1101.jdbc4.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+
